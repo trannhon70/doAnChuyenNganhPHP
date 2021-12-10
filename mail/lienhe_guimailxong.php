@@ -1,0 +1,1 @@
+<p>Mail của bạn đã được gửi </p>
