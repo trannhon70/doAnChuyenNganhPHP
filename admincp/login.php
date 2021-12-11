@@ -33,8 +33,12 @@
 </head>
 
 <body>
+    
     <div class="row">
-        <div class="col-4"></div>
+        <div class="col-4 p-4">
+            <h4 class="">Tài khoản : admin</h4>
+            <h4>password : 123456</h4>
+        </div>
         <aside class="col-sm-4">
             <p style="padding-bottom: 150px;"></p>
             <div class="card">

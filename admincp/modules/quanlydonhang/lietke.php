@@ -5,13 +5,14 @@
 <p>liệt kê đơn hàng  </p>
 <table border="1" style=" width: 70%; border-collapse: collapse;">
   <tr>
-      <th>Id</th>
+    <th>Id</th>
     <th>Mã đơn hàng</th>
     <th>Tên khách hàng</th>
     <th>Địa chỉ</th>
     <th>Email</th>
     <th>Số điện thoại</th>
     <th>Tình trạng</th>
+    <th>Ngày đặt</th>
     <th>Quản lý</th>
     
   </tr>
@@ -36,6 +37,7 @@
         ?>
         
     </td>
+    <td><?php echo $row['cart_date'] ?></td>
     <td><a href="index.php?action=donhang&query=xemdonhang&code=<?php echo $row['code_cart'] ?>">Xem đơn hàng</a></td>
     
   </tr>

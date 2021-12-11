@@ -20,5 +20,7 @@
     <li>
         <a href="index.php?action=quanlyweb&query=capnhat">Quản lý web </a>
     </li>
-    
+    <li>
+        <a href="index.php">Thống kê doanh thu </a>
+    </li>
 </ul>
